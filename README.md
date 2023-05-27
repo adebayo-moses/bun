@@ -1,29 +1,51 @@
-# bun
+**Vite Vanilla + TypescriptBoilerplate**
 
-This template should help get you started developing with Vue 3 in Vite.
+# Vite Vanilla Boilerplate Starter with SCSS and Typescript (Ready to go! 🚀 )
 
-## Recommended IDE Setup
+This is a boilerplate starter for a Vite Vanilla project so i don't keep having to set it up every time i want to start a new project. (my terminal is tired of me invoking the **npm init vite** command) 😂
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation and Dev
 
-## Customize configuration
+clone the repo or click the use this template button
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+  git clone https://github.com/adebayo-moses/vite-vanilla-boilerplate.git
 ```
 
-### Compile and Hot-Reload for Development
+Go to the project directory
 
-```sh
-npm run dev
+```bash
+  cd vite-vanilla-boilerplate
 ```
 
-### Compile and Minify for Production
+Install dependencies
 
-```sh
-npm run build
+```bash
+  npm install
 ```
+
+Start the server
+
+```bash
+  npm run start or npm run dev (either works)
+```
+
+## Tech Stack (What this boilerplate is made of)
+
+**Client:** Typescrip, HTML, SCSS
+
+**Server:** Node, Vite (Bundler)
+
+## Contributing
+
+Contributions are welcome anytime my brother.
+
+## Running Tests
+
+To run tests, (which the possibility of doing that is 0.1%, you can run the following command.
+
+```bash
+  npm run test
+```
+
+- Till next time, stay safe and keep coding! 🚀

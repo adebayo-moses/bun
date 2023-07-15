@@ -9,6 +9,66 @@ body {
   font-feature-settings: "case" on;
 }
 
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-pp-neue-montreal: "PP Neue Montreal";
+  --font-inter: Inter;
+  --font-roboto-mono: "Roboto Mono";
+  --font-roboto: Roboto;
+  --font-gilroy: Gilroy;
+  --font-crake: Crake;
+
+  /* font sizes */
+  --font-size-sm: 0.88rem;
+  --font-size-base: 1rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-xl: 1.25rem;
+  --font-size-5xs: 0.5rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-lg: 1.13rem;
+  --font-size-29xl: 3rem;
+
+  /* Colors */
+  --color-gray-100: #808081;
+  --color-gray-200: #252420;
+  --color-gray-300: #1b1b1b;
+  --color-gray-400: #141415;
+  --white-transparent-10: rgba(255, 255, 255, 0.1);
+  --black-transparent: rgba(0, 0, 0, 0.8);
+  --white-transparent-80: rgba(255, 255, 255, 0.8);
+  --color-gray-500: rgba(255, 255, 255, 0.4);
+  --color-lime: #4df812;
+  --white-default: #fff;
+  --color-mintcream: #f5fbf2;
+  --color-forestgreen: #4caf50;
+  --color-sandybrown: #f89b4b;
+  --color-fuchsia: #f151f4;
+  --color-mediumseagreen: #66bb6a;
+  --color-powderblue: #bdf3ff;
+  --color-darkgray: #9e9ea0;
+
+  /* Gaps */
+  --gap-3xs: 0.63rem;
+  --gap-5xs: 0.5rem;
+  --gap-11xl: 1.88rem;
+
+  /* Paddings */
+  --padding-3xs: 0.63rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-11xs: 0.13rem;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+}
+
 p {
   margin-top: 80px;
   letter-spacing: -4px;
@@ -36,16 +96,992 @@ p {
   }
 }
 
-.body,
-.body * {
-  box-sizing: border-box;
+.bun-is-a {
+  margin: 0;
 }
-.body {
-  background: #141415;
-  width: 1512px;
-  height: 982px;
+.bun-is-a-container {
+  position: absolute;
+  top: 22.98rem;
+  left: 21.6rem;
+  font-size: 5rem;
+  font-family: var(--font-crake);
+}
+.bundle-transpile-install {
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+.bundle-transpile-install-container {
+  position: absolute;
+  top: 35.42rem;
+  left: 24.93rem;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 42.64rem;
+}
+.docs {
   position: relative;
+  font-weight: 500;
+}
+.docs-parent {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.layer-2-icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.47rem;
+}
+.asset-1-1,
+.frame-parent {
+  width: 2rem;
+  height: 1.95rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent {
+  position: absolute;
+  top: 3.69rem;
+  left: 68.94rem;
+  width: 17rem;
+  height: 2.56rem;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.macbook-pro-14-1-child {
+  position: absolute;
+  top: 31.93rem;
+  left: -2.78rem;
+  border-radius: 50%;
+  width: 28.59rem;
+  height: 28.59rem;
+  transform: rotate(18.68deg);
+  transform-origin: 0 0;
+}
+.macbook-pro-14-1-item {
+  position: absolute;
+  height: 61.35%;
+  width: 49.63%;
+  top: 58.35%;
+  right: -31.43%;
+  bottom: -19.7%;
+  left: 81.8%;
+}
+.asset-1-11 {
+  position: absolute;
+  top: -30.81rem;
+  left: 44.75rem;
+  width: 7.55rem;
+  height: 7.36rem;
   overflow: hidden;
+}
+.b06d5022195b4f3119-contact-ana-icon {
+  position: absolute;
+  top: 8.04rem;
+  left: 31.5rem;
+  width: 31.5rem;
+  height: 20.81rem;
+  overflow: hidden;
+}
+.logo-icon {
+  position: absolute;
+  top: 3.1rem;
+  left: 5.95rem;
+  width: 3.13rem;
+  height: 2.73rem;
+  object-fit: cover;
+}
+.group-child {
+  position: absolute;
+  top: 2.75rem;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #292a2b;
+  box-shadow: 0 4px 4px rgba(18, 18, 18, 0.36);
+  width: 49.32rem;
+  height: 7.89rem;
+}
+.frame-child {
+  background-color: #ea3333;
+}
+.frame-child,
+.frame-inner,
+.frame-item {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.frame-item {
+  background-color: #e0da4e;
+}
+.frame-inner {
+  background-color: var(--color-lime);
+}
+.rectangle-group {
+  position: absolute;
+  top: 3.78rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.38rem;
+}
+.bash {
+  position: absolute;
+  top: 3.28rem;
+  left: 23.47rem;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+.rectangle-div {
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-200);
+  border: 2px solid var(--color-sandybrown);
+  box-sizing: border-box;
+  width: 44.63rem;
+  height: 3.81rem;
+}
+.rectangle-wrapper {
+  position: absolute;
+  top: 4.7rem;
+  left: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.curl-httpsbunshinstall,
+.i {
+  position: absolute;
+  top: 6.53rem;
+  left: 6.6rem;
+  font-weight: 500;
+}
+.i {
+  left: 3.54rem;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-sandybrown);
+}
+.document-normal-icon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.copy-parent {
+  position: absolute;
+  top: 5.9rem;
+  left: 40.66rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.install-bun-cli {
+  position: absolute;
+  top: 0;
+  left: 16.6rem;
+  font-size: var(--font-size-xl);
+}
+.rectangle-parent {
+  position: absolute;
+  top: 46.5rem;
+  left: 22.59rem;
+  width: 49.32rem;
+  height: 10.64rem;
+}
+.macbook-pro-14-1 {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 94.5rem;
+  height: 61.38rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+}
+.macbook-pro-14-2-child,
+.macbook-pro-14-2-inner,
+.macbook-pro-14-2-item {
+  position: absolute;
+  top: 20.56rem;
+  left: 5.89rem;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-300);
+  width: 25.01rem;
+  height: 28.13rem;
+}
+.macbook-pro-14-2-inner,
+.macbook-pro-14-2-item {
+  left: 34.75rem;
+}
+.macbook-pro-14-2-inner {
+  left: 63.61rem;
+}
+.fc0e17f7c6283a6b0b011a5-sync-icon {
+  position: absolute;
+  top: 20.17rem;
+  left: 5.89rem;
+  width: 21.07rem;
+  height: 22.05rem;
+  overflow: hidden;
+}
+.frame-icon {
+  position: absolute;
+  top: 23.75rem;
+  left: 42.32rem;
+  width: 10.61rem;
+  height: 12.02rem;
+}
+.tell-me-more {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tell-me-more-about-bun-wrapper {
+  position: absolute;
+  top: 8.81rem;
+  left: 5.89rem;
+  border-radius: 5px;
+  background-color: var(--color-sandybrown);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #803c02;
+}
+.fbff53a958e8cf29400e8e4-build3-icon {
+  position: absolute;
+  top: 25.06rem;
+  left: 67.25rem;
+  width: 17.56rem;
+  height: 11.69rem;
+  overflow: hidden;
+}
+.bun-is-a-container1 {
+  position: absolute;
+  top: 11.44rem;
+  left: 5.89rem;
+  font-weight: 600;
+}
+.fast,
+.start-fast-it {
+  position: relative;
+  font-weight: 600;
+}
+.start-fast-it {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-darkgray);
+}
+.fast-parent {
+  position: absolute;
+  top: 39.56rem;
+  left: 7.64rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.new-levels-of {
+  margin-block-start: 0;
+  margin-block-end: 4px;
+}
+.perfomance-parent,
+.utter-parent {
+  position: absolute;
+  top: 39.56rem;
+  left: 36.84rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.utter-parent {
+  left: 65.63rem;
+}
+.macbook-pro-14-2 {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 94.5rem;
+  height: 61.38rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-29xl);
+}
+.bun-is-designed-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.bun-is-designed-container {
+  position: absolute;
+  top: 19.54rem;
+  left: 58.47rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  width: 30.82rem;
+}
+.how-it-works {
+  position: absolute;
+  top: 15.19rem;
+  left: 58.47rem;
+  font-size: var(--font-size-17xl);
+  line-height: 150%;
+  color: var(--color-mintcream);
+}
+.get-whitepaper {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+}
+.get-whitepaper-wrapper {
+  position: absolute;
+  top: 43.28rem;
+  left: 58.47rem;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-sandybrown);
+  box-sizing: border-box;
+  width: 19.88rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) 3rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-default);
+  font-family: var(--font-gilroy);
+}
+.group-child1,
+.group-child2,
+.group-inner,
+.group-item {
+  position: absolute;
+  border-radius: var(--br-mini);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(50px);
+  width: 19.81rem;
+  height: 14.31rem;
+}
+.group-item {
+  top: 0;
+  left: 0;
+}
+.group-child1,
+.group-child2,
+.group-inner {
+  top: 16rem;
+  left: 7.06rem;
+}
+.group-child1,
+.group-child2 {
+  top: 7.21rem;
+  left: 21.34rem;
+  width: 19.88rem;
+}
+.group-child2 {
+  top: 23.06rem;
+  left: 28.34rem;
+}
+.blazingly-fast {
+  position: absolute;
+  top: 9.64rem;
+  left: 5.56rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+.secure-performance,
+.simple-tooling,
+.support-cross-frameworks {
+  position: absolute;
+  top: 16.89rem;
+  left: 26.72rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+.secure-performance,
+.support-cross-frameworks {
+  top: 25.69rem;
+  left: 8.84rem;
+}
+.secure-performance {
+  top: 32.78rem;
+  left: 31.44rem;
+}
+.simple-iconsmarketo {
+  position: absolute;
+  top: 3.15rem;
+  left: 7.41rem;
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.healthiconsui-secure-negative,
+.simple-iconsmarketo1,
+.simple-iconsmarketo2 {
+  position: absolute;
+  top: 10.71rem;
+  left: 28.78rem;
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.healthiconsui-secure-negative,
+.simple-iconsmarketo2 {
+  top: 19.38rem;
+  left: 14.47rem;
+}
+.healthiconsui-secure-negative {
+  top: 26.56rem;
+  left: 36.09rem;
+  width: 4rem;
+  height: 4rem;
+}
+.rectangle-container {
+  position: absolute;
+  top: 12.69rem;
+  left: 6.35rem;
+  width: 48.22rem;
+  height: 37.38rem;
+  font-size: var(--font-size-3xl);
+  color: var(--color-powderblue);
+  font-family: var(--font-gilroy);
+}
+.macbook-pro-14-3 {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 94.5rem;
+  height: 61.38rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+}
+.macbook-pro-14-4-child {
+  position: absolute;
+  top: 7.52rem;
+  left: 49.83rem;
+  width: 5.61rem;
+  height: 30.64rem;
+}
+.close {
+  background-color: #f44336;
+}
+.close,
+.fullscreen,
+.minimize {
+  position: relative;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+.minimize {
+  background-color: #ffc107;
+}
+.fullscreen {
+  background-color: var(--color-forestgreen);
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.44rem;
+}
+.editor1 {
+  flex: 1;
+  position: relative;
+}
+.navigation1 {
+  align-self: stretch;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.project-icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bun,
+.menu {
+  display: flex;
+}
+.menu {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.bun {
+  flex: 1;
+  position: relative;
+  align-items: center;
+  height: 1.69rem;
+}
+.project {
+  width: 15.5rem;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--white-default);
+}
+.folder,
+.github,
+.project {
+  display: flex;
+  align-items: center;
+}
+.github {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  height: 1.69rem;
+}
+.folder {
+  width: 15.5rem;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1 {
+  height: 83.33%;
+  width: 66.67%;
+  top: 8.33%;
+  right: 16.67%;
+  bottom: 8.33%;
+  left: 16.67%;
+}
+.js {
+  position: absolute;
+  top: 54.17%;
+  left: 25%;
+  line-height: 0.5rem;
+}
+.file1,
+.httpjs {
+  align-items: center;
+}
+.httpjs {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--white-transparent-80);
+  display: flex;
+  height: 1.69rem;
+}
+.file1 {
+  background-color: var(--white-transparent-10);
+  width: 15.5rem;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-5xs);
+  color: var(--black-transparent);
+}
+.browser,
+.file1,
+.file2,
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+}
+.file2 {
+  width: 15.5rem;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-5xs);
+  color: var(--black-transparent);
+}
+.browser,
+.navigation {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.browser {
+  flex: 1;
+  padding: var(--padding-5xs) 0;
+}
+.navigation {
+  align-self: stretch;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: rgba(51, 51, 51, 0.8);
+  backdrop-filter: blur(50px);
+  width: 15.5rem;
+}
+.p,
+.p4 {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+}
+.p4 {
+  color: var(--white-transparent-80);
+}
+.line-numbers {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  width: 1.25rem;
+  flex-shrink: 0;
+}
+.span {
+  color: var(--white-default);
+}
+.export-default {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+  color: var(--color-fuchsia);
+}
+.span2 {
+  color: var(--color-mediumseagreen);
+}
+.port {
+  color: #fafafa;
+}
+.span4 {
+  color: #701d8d;
+}
+.request {
+  color: var(--color-sandybrown);
+}
+.return-new {
+  color: var(--color-fuchsia);
+}
+.response {
+  color: var(--color-forestgreen);
+}
+.return-new-responsewelcome-t {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+  color: #fbefdf;
+}
+.p21,
+.p22 {
+  color: var(--white-default);
+}
+.p21 {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+}
+.p22 {
+  margin: 0;
+}
+.code,
+.code-snippet {
+  align-self: stretch;
+  flex: 1;
+}
+.code-snippet {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  color: var(--color-mediumseagreen);
+}
+.code {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.editor,
+.main,
+.rectangle-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.main {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: #222;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -3.69rem;
+  color: var(--color-gray-500);
+  font-family: var(--font-roboto-mono);
+}
+.editor,
+.rectangle-frame {
+  position: absolute;
+}
+.editor {
+  top: 12.96rem;
+  left: 6.35rem;
+  border-radius: var(--br-mini);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  width: 44.75rem;
+  height: 20.44rem;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  color: var(--white-transparent-80);
+  font-family: var(--font-roboto);
+}
+.rectangle-frame {
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+}
+.curl-httpsbunshinstall1 {
+  position: absolute;
+  top: 1.83rem;
+  left: 5.25rem;
+  font-weight: 500;
+}
+.copy-group,
+.i1 {
+  position: absolute;
+}
+.i1 {
+  top: 1.83rem;
+  left: 2.19rem;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-sandybrown);
+}
+.copy-group {
+  top: 1.2rem;
+  left: 39.31rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frame-group {
+  position: absolute;
+  top: 5.88rem;
+  left: 5.72rem;
+  width: 45.88rem;
+  height: 5.06rem;
+  text-align: center;
+  color: var(--white-default);
+}
+.bun-run-httpjs {
+  position: absolute;
+  top: 1.83rem;
+  left: 2.71rem;
+  font-weight: 500;
+}
+.frame-container {
+  position: absolute;
+  top: 35.43rem;
+  left: 5.85rem;
+  width: 45.88rem;
+  height: 5.06rem;
+  text-align: center;
+  color: var(--white-default);
+}
+.buns-http-server-container,
+.to-install-bun {
+  position: absolute;
+  top: 7.08rem;
+  left: 56.67rem;
+  font-size: var(--font-size-xl);
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  width: 30.82rem;
+}
+.buns-http-server-container {
+  top: 19.43rem;
+}
+.in-your-browser {
+  color: var(--color-gray-100);
+}
+.run-it-with-container {
+  position: absolute;
+  top: 35.52rem;
+  left: 56.67rem;
+  font-size: var(--font-size-xl);
+  line-height: 2rem;
+}
+.getting-started {
+  position: absolute;
+  top: 3.13rem;
+  left: 56.67rem;
+  font-size: var(--font-size-17xl);
+  line-height: 150%;
+  color: var(--color-mintcream);
+}
+.macbook-pro-14-4 {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 94.5rem;
+  height: 42.69rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--color-gray-100);
+}
+.playground {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.pricing-updates-beta-container {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 0;
+  line-height: 1.81rem;
+  opacity: 0.75;
+  mix-blend-mode: normal;
+}
+.quick-links {
+  position: absolute;
+  top: 5.03rem;
+  left: 56.59rem;
+  width: 5rem;
+  height: 9.25rem;
+}
+.community {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1.5rem;
+}
+.quick-links2,
+.quick-links3 {
+  position: absolute;
+  top: 5.03rem;
+  left: 68.76rem;
+  width: 5.44rem;
+  height: 9.25rem;
+}
+.quick-links3 {
+  left: 81.17rem;
+  width: 6.63rem;
+}
+.bun1,
+.logo-icon1 {
+  position: absolute;
+  left: 6.35rem;
+}
+.logo-icon1 {
+  top: 3.66rem;
+  width: 3.13rem;
+  height: 2.73rem;
+  object-fit: cover;
+}
+.bun1 {
+  top: 12.59rem;
+  line-height: 1.5rem;
+  color: #515253;
+}
+.footer-child {
+  position: absolute;
+  top: 11.88rem;
+  left: 74.44rem;
+}
+.layer-2-icon1 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.1rem;
+}
+.built-with-bun {
+  position: relative;
+  line-height: 1.5rem;
+}
+.layer-2-parent {
+  position: absolute;
+  top: 8.25rem;
+  left: 22.38rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.all-systems-operational {
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.ellipse-div {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-lime);
+  width: 0.63rem;
+  height: 0.63rem;
+}
+.all-systems-operational-parent {
+  position: absolute;
+  top: 8.25rem;
+  left: 5.81rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+}
+.footer {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 94.5rem;
+  height: 17.81rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.macbook-pro-14-1-parent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white-default);
+  font-family: var(--font-pp-neue-montreal);
 }
 
 @media only screen and (max-width: 1280px) {
@@ -72,4 +1108,44 @@ p {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
   }
+}
+
+:root {
+  /* --color-pink: #d88c9a; */
+  --color-dark: #353535;
+  --bg-color: #e0e5ec;
+  --hover-color: #ebeff6;
+  --light-shadow: rgba(255, 255, 255, 0.6);
+  --dark-shadow: #a3b1c6;
+  --default-padding: clamp(1rem, 2vw, 3rem);
+  --default-shadow: 9px 9px 16px 0px var(--dark-shadow),
+    -9px -9px 16px 0px var(--light-shadow);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* LOADING OVERLAY */
+.loading-overlay {
+  --percentage: "0%";
+  background: var(--color-dark);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+}
+
+.loading-overlay::before {
+  content: var(--percentage);
+
+  position: absolute;
+  right: var(--default-padding);
+  bottom: var(--default-padding);
+  color: var(--bg-color);
+  font-size: clamp(3rem, 8vw, 12rem);
 }
